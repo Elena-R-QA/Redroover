@@ -1,0 +1,197 @@
+// Make a hot coffee in the coffee machine
+
+// Ingridients needed:
+
+// pure water
+// breville machine
+// lavazza capsule
+
+// 1.plug in a coffee machine
+// 2.pour water into the coffee machine
+// 3.put capsule in the coffee machine
+// 4.take empty glass
+// 5.press the button
+
+let coffee = "Make a hot coffee in the coffee machine";
+let name = 'Ingridients needed:';
+let water = "pure water";
+let coffeeMachine = "breville machine";
+let coffeeCapsule = "lavazza capsule";
+document.write (coffee, '<br>', '<br>', '<br>', name, '<br>', '<br>', water, '<br>', coffeeMachine, '<br>', coffeeCapsule, '<br>', '<br>', '<br>');
+
+let step1 = '1.plug in a coffee machine';
+let step2 = '2.pour water into the coffee machine';
+let step3 = '3.put capsule in the coffee machine';
+let step4 = '4.take empty glass';
+let step5 = '5.press the button';
+let result = 'Your hot coffee is ready!'
+
+document.write (step1, "<br>", step2, "<br>", step3, "<br>", step4, "<br>", step5, "<br>", "<br>", result, "<br>");
+
+
+console.log ('result:hot black coffee is ready')
+
+
+
+// Напишите программу по согласованию отпуска в зависимости от месяца. Если месяц “July” или “August”, то программа должна показать - ‘approved’, если другие месяцы, то - “denied”.
+
+
+// let month;
+// month = "August";
+// // month = "May"
+// if (month == "July" || month == "August"){
+//   console.log (`approved`)
+// }
+// else 
+// console.log (`denied`)
+
+
+
+// let myMonth = "may";
+// let month = myMonth.toLowerCase();
+
+// if (myMonth == "July" || myMonth == "August"){
+//   console.log("approved")
+// }
+// else console.log("denied")
+
+
+// Напишите простенький калькулятор (*, /, +, -). Проверьте ваш код на охват исключений для арифметических операций.
+// У вас должны быть две переменные для исходных чисел и одна для оператора. В зависимости от оператора, должно происходить то или иное арифметическое действие и выводиться результат в консоль.
+
+
+// let num1 = 5;
+// let num2 = 5;
+// let operator = "/";
+
+// if(operator == "+"){
+//   console.log(num1 + num2)
+// }
+// else if (operator == "-"){
+//   console.log(num1 - num2)
+// }
+// else if (operator == "*"){
+//   console.log(num1 * num2)
+// }
+// else if (operator == "/" && num2 !=0){
+//   console.log(num1 / num2)
+// }
+// else console.log("Please, enter correct number")
+
+// «Улитка ползёт вверх по стене высотой 5 метров. Каждый день она проползает вверх на 3 метра, а каждую ночь съезжает вниз на 2 метра. За сколько дней она доползёт до вершины стены.»
+
+
+// let dayDistance = 3;
+// let nightDown = -2;
+// let distance = 0;
+// let days = 0;
+
+// if ((distance += dayDistance) <= 5 {
+//   days++
+//   console.log(` Current distance at the end of the day for day ${days} is ${distance} meter(s)`)
+//   distance += nightDown
+// }
+
+// if ((distance +- dayDistance) <= 5{
+//   days++
+//   console.log(`Current distance at the end of the day for day ${days} is ${distance} meter(s)`)
+//   distance +- nightDown
+// }
+  
+// if ((distance +- dayDistance)<= 5{
+//   days++
+//   console.log(`Current distance at the end of the day for day ${days} is ${distance} meter(s)`)
+//   distance +- nightDown
+// }
+  
+//   if ((distance +- dayDistance)<= 5{
+//   days++
+//   console.log(`Current distance at the end of the day for day ${days} is ${distance} meter(s)`)
+//   distance +- nightDown
+// }
+//   else console.log("Finish")
+
+
+// let str = 'Hello World!';
+// //         0123456789..
+// console.log (str.length);
+// console.log (str[0]);
+// let myArr = [1,2,3, 'ste', 'trn',true, false, undefined, null, {q: 19}, [78, 44, true]];
+// console.log(myArr)
+// console.log(myArr.length);
+// console.log(myArr[10][1])
+
+// const myArr = [1, 2, 3, 'ste', 'trn', false, undefined, null];
+// console.log(myArr[3]);
+
+// myArr[3] = 675;
+// console.log(myArr);
+
+// 
+// myArr = [];
+// myArr[100] = 675;
+// console.log(myArr);
+// console.log(myArr.length)
+
+// myArr = [1, 2, 3, 4];
+// console.log(myArr);
+// console.log(myArr[myArr.length -1])
+// console.log (myArr.length);
+// myArr.length = 10;
+// console.log(myArr)
+
+// let str = 'Hello';
+//         // 01234
+// // console.log(str[0]);
+// // console.log(str[1]);
+// // console.log(str[2]);
+// // console.log(str[3]);
+// // console.log(str[4]);
+
+// let index = 0;
+// while (index < str.lenght){
+// console.log(str[index]);
+//   index++
+// }
+// console.log('End')
+
+
+// let name;
+// do{
+//  name = prompt('Please enter your name:') 
+// } while(name != 'admin');
+// alert ('Hello')
+
+// let name = prompt ('Please enter you name')
+// while (name != 'admin'){
+//   alert("You have entered a wrong name")
+//   name = prompt('Please enter you name:')
+// }
+// alert('Hello')
+
+// let str = 'Hello';
+// for (let index = 0; index <= 5; index++){
+//   console.log(index);
+// }
+// console.log ('End')
+
+
+// 'use strict'
+// let firstName = 'Anna';
+// let lastName = "Hanter 'Hi'";
+// console.log(firstName + '\n' + lastName);
+// {
+  
+// }
+// const name = "";
+// let age;
+
+
+
+
+
+
+
+
+
+
